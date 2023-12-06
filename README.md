@@ -60,20 +60,20 @@ CamVid: You can access and download in this [Baidu Drive](https://pan.baidu.com/
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	CWD|	74.66|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	CIRKD|	75.42|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	MasKD|	75.26|
-|DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	Af-DCD|	[76.43]{https://drive.google.com/file/d/1D1pREhqYdu_NJzQSo1utNNsrjn_EJSlO/view?usp=sharing}|
+|DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	Af-DCD|	[76.43](https://drive.google.com/file/d/1D1pREhqYdu_NJzQSo1utNNsrjn_EJSlO/view?usp=sharing)|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (74.21)|	SKD|	75.42|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (74.21)|	IFVD|	75.59|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (74.21)|	CWD|	75.55|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (74.21)|	CIRKD|	76.38|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (74.21)|	MasKD|	77.00|
-|DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (74.21)|	Af-DCD|	[77.03]{https://drive.google.com/file/d/1D1pREhqYdu_NJzQSo1utNNsrjn_EJSlO/view?usp=sharing}|
+|DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (74.21)|	Af-DCD|	[77.03](https://drive.google.com/file/d/1D1pREhqYdu_NJzQSo1utNNsrjn_EJSlO/view?usp=sharing)|
 
 ### ADE20K
 |Teacher|	Student|	Distillaton Methods|	Performance (mIOU, %)|
 |--|--|--|--|
 |DeepLabV3-ResNet101 (42.70)|	DeepLabV3-ResNet18 (33.91)|	KD|	34.88|
 |DeepLabV3-ResNet101 (42.70)|	DeepLabV3-ResNet18 (33.91)|	CIRKD|	35.41|
-|DeepLabV3-ResNet101 (42.70)|	DeepLabV3-ResNet18 (33.91)|	Af-DCD|	[36.21]{https://drive.google.com/file/d/1jJrZuHDJJB8E2Vw0QW6687fjcspMytXO/view?usp=sharing}|
+|DeepLabV3-ResNet101 (42.70)|	DeepLabV3-ResNet18 (33.91)|	Af-DCD|	[36.21](https://drive.google.com/file/d/1jJrZuHDJJB8E2Vw0QW6687fjcspMytXO/view?usp=sharing)|
 
 
 
@@ -82,7 +82,7 @@ CamVid: You can access and download in this [Baidu Drive](https://pan.baidu.com/
 |--|--|--|--|
 |DeepLabV3-ResNet101 (38.71)|	DeepLabV3-ResNet18 (32.60)|	KD|	32.88|
 |DeepLabV3-ResNet101 (38.71)|	DeepLabV3-ResNet18 (32.60)|	CIRKD|	33.11|
-|DeepLabV3-ResNet101 (38.71)|	DeepLabV3-ResNet18 (32.60)|	Af-DCD|	[34.02]{https://drive.google.com/file/d/1MnKWYpwDkY7IkyNMkY4SbsWmRFP8P5lM/view?usp=sharing}|
+|DeepLabV3-ResNet101 (38.71)|	DeepLabV3-ResNet18 (32.60)|	Af-DCD|	[34.02](https://drive.google.com/file/d/1MnKWYpwDkY7IkyNMkY4SbsWmRFP8P5lM/view?usp=sharing)|
 
 
 
@@ -107,12 +107,12 @@ CamVid: You can access and download in this [Baidu Drive](https://pan.baidu.com/
 |DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	IFVD|	67.28|
 |DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	CWD|	67.71|
 |DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	CIRKD|	68.21|
-|DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	Af-DCD|	[69.27]{https://drive.google.com/file/d/1-cUEZorAzRTcbCWSW2o3PECdxs84c5Ay/view?usp=sharing}|
+|DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	Af-DCD|	[69.27](https://drive.google.com/file/d/1-cUEZorAzRTcbCWSW2o3PECdxs84c5Ay/view?usp=sharing)|
 |DeepLabV3-ResNet101 (69.84)|	PSPNet-ResNet18 (66.73)|	SKD|	67.83|
 |DeepLabV3-ResNet101 (69.84)|	PSPNet-ResNet18 (66.73)|	IFVD|	67.61|
 |DeepLabV3-ResNet101 (69.84)|	PSPNet-ResNet18 (66.73)|	CWD|	67.92|
 |DeepLabV3-ResNet101 (69.84)|	PSPNet-ResNet18 (66.73)|	CIRKD|	68.65|
-|DeepLabV3-ResNet101 (69.84)|	PSPNet-ResNet18 (66.73)|	Af-DCD|	[69.48]{https://drive.google.com/file/d/1PcU9SSAWlwsaIcsH8eZFYZOkejEjDhR1/view?usp=sharing}|
+|DeepLabV3-ResNet101 (69.84)|	PSPNet-ResNet18 (66.73)|	Af-DCD|	[69.48](https://drive.google.com/file/d/1PcU9SSAWlwsaIcsH8eZFYZOkejEjDhR1/view?usp=sharing)|
 
 
 
