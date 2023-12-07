@@ -43,7 +43,7 @@ pip install opencv-python==4.5.1.48
 
 
 ## Experimental Results
-
+Note: The models released here show slightly different (mostly better) accuracies compared to the original models reported in our paper. As the original models and source code had been used in internal commerical projects. This reimplementation of training and evaluation code is dedicated for public release.
 ### Cityscapes
 |Teacher|	Student|	Distillaton Methods|	Performance (mIOU, %)|
 |--|--|--|--|
