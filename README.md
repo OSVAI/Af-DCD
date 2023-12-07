@@ -9,7 +9,7 @@ Af-DCD is a new contrastive distillation learning paradigm to train compact and 
 ![teaser](./main.png)
 
 
-## Requirement
+## Requirements
 
 Ubuntu 18.04 LTS
 
