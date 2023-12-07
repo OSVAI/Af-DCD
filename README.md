@@ -38,12 +38,7 @@ pip install opencv-python==4.5.1.48
 
 
 ## Prepare datasets
-- Download the target datasets.
- -- Cityscapes: You can access and download in this [website](https://www.cityscapes-dataset.com/)
- -- ADE20K: You can access and download in this [Google Drive](https://drive.google.com/file/d/10cCHvCZ3HTxtE9iaSlMcMF0oDgtMpVF8/view?usp=share_link)
- -- COCO-Stuff-164K: You can access and download in this [website](https://github.com/nightrome/cocostuff) 
- -- Pascal VOC: You can access and download in this [Baidu Drive](https://pan.baidu.com/s/1MX2ea7rNRqbDqOKQ8E6XpQ?pwd=d2fp)
- -- CamVid: You can access and download in this [Baidu Drive](https://pan.baidu.com/s/1Z0h4y1-4k0LP8OCGY_Xixw?pwd=bl12)
+- Download the target datasets: Cityscapes: You can access and download in this [website](https://www.cityscapes-dataset.com/); ADE20K: You can access and download in this [Google Drive](https://drive.google.com/file/d/10cCHvCZ3HTxtE9iaSlMcMF0oDgtMpVF8/view?usp=share_link); COCO-Stuff-164K: You can access and download in this [website](https://github.com/nightrome/cocostuff); Pascal VOC: You can access and download in this [Baidu Drive](https://pan.baidu.com/s/1MX2ea7rNRqbDqOKQ8E6XpQ?pwd=d2fp); CamVid: You can access and download in this [Baidu Drive](https://pan.baidu.com/s/1Z0h4y1-4k0LP8OCGY_Xixw?pwd=bl12)
 - Then, move these data into folder data/
 
 
