@@ -7,7 +7,7 @@ Af-DCD is a new contrastive distillation learning paradigm to train compact and 
 
 
 ![teaser](./main.png)
-
+Detailed illustrations on three different types of Af-DCD, which are Spatial Contrasting (topleft), Channel Contrasting (top right) and Omni-Contrasting (bottom). For brevity, the contrasting process is illustrated merely using a specific contrastive sample in student feature maps, denoted as $F^s_{i,j}$ , $F^s_{i,j,k}$, $F^s_{p,i,j,k}$ in three Af-DCD designs, respectively. The red arrows denote constructing positive pairs, while the blue arrows denote constructing negative pairs. The gray blocks denote other patches which are not considered in calculating the loss in this patch.
 
 ## Requirements
 
