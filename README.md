@@ -129,7 +129,7 @@ bash test_scripts/cityscpaes/
 If you find our work useful in your research, please consider citing:
 ```shell
 @inproceedings{fan2023augmentation,
-  title={Augmentation-free Dense Contrastive Distillation for Efficient Semantic Segmentation},
+  title={Augmentation-free Dense Contrastive Knowledge Distillation for Efficient Semantic Segmentation},
   author={Fan, Jiawei and Li, Chao and Liu, Xiaolong and Song, Meina and Yao, Anbang},
   booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
   year={2023}
