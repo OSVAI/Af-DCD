@@ -35,6 +35,7 @@ pip install opencv-python==4.5.1.48
 ## Prepare pretrained backbones
 - Download the target checkpoints.
 [resnet101-imagenet.pth](https://drive.google.com/file/d/1V8-E4wm2VMsfnNiczSIDoSM7JJBMARkP/view?usp=sharing), [resnet18-imagenet.pth](https://drive.google.com/file/d/1_i0n3ZePtQuh66uQIftiSwN7QAUlFb8_/view?usp=sharing) and [mobilenetv2-imagenet.pth](https://drive.google.com/file/d/12EDZjDSCuIpxPv-dkk1vrxA7ka0b0Yjv/view?usp=sharing)
+- Download Teacher Models of specific datasets. 
 - Then, move these checkpoints into folder pretrained_ckpt/
 
 
@@ -48,7 +49,7 @@ Note: The models released here show slightly different (mostly better) accuracie
 ### Cityscapes
 |Teacher|	Student|	Distillaton Methods|	Performance (mIOU, %)|
 |--|--|--|--|
-|DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	SKD|	73.82|
+|[DeepLabV3-ResNet101 (78.07)](https://drive.google.com/file/d/1zUdhYPYCDCclWU3Wo7GbbTlM8ibQ_UC1/view?usp=sharing)|	DeepLabV3-MobileNetV2 (73.12)|	SKD|	73.82|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	IFVD|	73.50|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	CWD|	74.66|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-MobileNetV2 (73.12)|	CIRKD|	75.42|
@@ -64,7 +65,7 @@ Note: The models released here show slightly different (mostly better) accuracie
 ### ADE20K
 |Teacher|	Student|	Distillaton Methods|	Performance (mIOU, %)|
 |--|--|--|--|
-|DeepLabV3-ResNet101 (42.70)|	DeepLabV3-ResNet18 (33.91)|	KD|	34.88|
+|[DeepLabV3-ResNet101 (42.70)](https://drive.google.com/file/d/1jlywjvZqKTUWCEwdFpPKHzrpNgeckMcO/view?usp=share_link)|	DeepLabV3-ResNet18 (33.91)|	KD|	34.88|
 |DeepLabV3-ResNet101 (42.70)|	DeepLabV3-ResNet18 (33.91)|	CIRKD|	35.41|
 |DeepLabV3-ResNet101 (42.70)|	DeepLabV3-ResNet18 (33.91)|	Af-DCD|	[36.21](https://drive.google.com/file/d/1jJrZuHDJJB8E2Vw0QW6687fjcspMytXO/view?usp=sharing)|
 
@@ -73,7 +74,7 @@ Note: The models released here show slightly different (mostly better) accuracie
 ### COCO-Stuff-164K
 |Teacher|	Student|	Distillaton Methods|	Performance (mIOU, %)|
 |--|--|--|--|
-|DeepLabV3-ResNet101 (38.71)|	DeepLabV3-ResNet18 (32.60)|	KD|	32.88|
+|[DeepLabV3-ResNet101 (38.71)](https://drive.google.com/file/d/1uOCl8ZYK22d7D1WXG4tnHc6slT8_iSjk/view?usp=share_link)|	DeepLabV3-ResNet18 (32.60)|	KD|	32.88|
 |DeepLabV3-ResNet101 (38.71)|	DeepLabV3-ResNet18 (32.60)|	CIRKD|	33.11|
 |DeepLabV3-ResNet101 (38.71)|	DeepLabV3-ResNet18 (32.60)|	Af-DCD|	[34.02](https://drive.google.com/file/d/1MnKWYpwDkY7IkyNMkY4SbsWmRFP8P5lM/view?usp=sharing)|
 
@@ -82,7 +83,7 @@ Note: The models released here show slightly different (mostly better) accuracie
 ### Pascal VOC
 |Teacher|	Student|	Distillaton Methods|	Performance (mIOU, %)|
 |--|--|--|--|
-|DeepLabV3-ResNet101 (77.67)|	DeepLabV3-ResNet18 (73.21)|	SKD|	73.51|
+|[DeepLabV3-ResNet101 (77.67)](https://drive.google.com/file/d/1rYTaVq_ooiAI4oFOcDP8K3SpSbjURGnX/view?usp=sharing)|	DeepLabV3-ResNet18 (73.21)|	SKD|	73.51|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (73.12)|	IFVD|	73.85|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (73.12)|	CWD|	74.02|
 |DeepLabV3-ResNet101 (78.07)|	DeepLabV3-ResNet18 (73.12)|	CIRKD|	74.50|
@@ -96,7 +97,7 @@ Note: The models released here show slightly different (mostly better) accuracie
 ### Camvid
 |Teacher|	Student|	Distillaton Methods|	Performance (mIOU, %)|
 |--|--|--|--|
-|DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	SKD|	67.46|
+|[DeepLabV3-ResNet101 (69.84)](https://drive.google.com/file/d/1BK8Flukoz-Mtd0e1iwFG5rLxi_ES76d2/view?usp=sharing)|	DeepLabV3-ResNet18 (66.92)|	SKD|	67.46|
 |DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	IFVD|	67.28|
 |DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	CWD|	67.71|
 |DeepLabV3-ResNet101 (69.84)|	DeepLabV3-ResNet18 (66.92)|	CIRKD|	68.21|
